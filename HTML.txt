@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Екологічне пакування</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Екологічне пакування</h1>
+    <nav>
+      <ul>
+        <li><a href="#products">Продукція</a></li>
+        <li><a href="#why-eco">Чому екологічно?</a></li>
+        <li><a href="#services">Послуги</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Продукція -->
+    <section id="products">
+      <h2>Продукція</h2>
+      <div class="product-item">
+        <img src="paper-bags.jpg" alt="Паперові пакети">
+        <h3>Паперові пакети</h3>
+        <p>Матеріал: 100% екологічний папір. Розміри: S, M, L.</p>
+      </div>
+      <div class="product-item">
+        <img src="biodegradable-containers.jpg" alt="Біорозкладні контейнери">
+        <h3>Біорозкладні контейнери</h3>
+        <p>Стійкі до температури. Підходять для їжі.</p>
+      </div>
+      <div class="product-item">
+        <img src="reusable-bags.jpg" alt="Багаторазові торбинки">
+        <h3>Багаторазові торбинки</h3>
+        <p>Легкі та міцні, ідеальні для покупок.</p>
+      </div>
+      <div class="product-item">
+        <img src="cardboard-boxes.jpg" alt="Картонні коробки">
+        <h3>Картонні коробки</h3>
+        <p>Різні розміри для транспортування.</p>
+      </div>
+      <div class="product-item">
+        <img src="eco-tape.jpg" alt="Еко-скотч і наклейки">
+        <h3>Еко-скотч і наклейки</h3>
+        <p>Біорозкладний клей. Можливість брендування.</p>
+      </div>
+    </section>
+
+    <!-- Чому екологічно -->
+    <section id="why-eco">
+      <h2>Чому екологічно?</h2>
+      <p>Наше пакування повністю біорозкладне та не шкодить довкіллю.</p>
+      <ul>
+        <li>Мінімізація пластикових відходів.</li>
+        <li>Сприяє сталому розвитку бізнесу.</li>
+        <li>Безпечно для людей і природи.</li>
+      </ul>
+    </section>
+
+    <!-- Послуги -->
+    <section id="services">
+      <h2>Послуги</h2>
+      <ul>
+        <li>Брендування: друк логотипів та дизайнів.</li>
+        <li>Консультація щодо вибору матеріалів.</li>
+        <li>Індивідуальні замовлення за параметрами.</li>
+      </ul>
+    </section>
+
+    <!-- Контакти -->
+    <section id="contacts">
+      <h2>Контакти</h2>
+      <p><strong>Телефон:</strong> +380 (XX) XXX-XX-XX</p>
+      <p><strong>Email:</strong> info@eco-packaging.com</p>
+      <form>
+        <label for="message">Ваше повідомлення:</label>
+        <textarea id="message" rows="4"></textarea>
+        <button type="submit">Надіслати</button>
+      </form>
+    </section>
+  </main>
+
+  <button id="help-button">Допомога</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

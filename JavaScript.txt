@@ -1,0 +1,3 @@
+document.getElementById('help-button').addEventListener('click', () => {
+  alert('Звертайтесь до нас через розділ "Контакти"!');
+});
